@@ -12,12 +12,13 @@
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "window.confirmBeforeClose": "always",
-    "screencastMode.onlyKeyboardShortcuts": true,
     "workbench.commandPalette.preserveInput": true,
     "workbench.list.smoothScrolling": true,
     "workbench.editor.splitInGroupLayout": "vertical",
     "workbench.iconTheme": "eq-material-theme-icons-light",
-    // "window.commandCenter": true,
+    "diffEditor.ignoreTrimWhitespace": false,
+    "zenMode.hideLineNumbers": false,
+    "window.commandCenter": true,
 
     // -------------- Mouse settings --------------
     "editor.cursorSmoothCaretAnimation": true,
@@ -33,6 +34,7 @@
     "editor.acceptSuggestionOnEnter": "smart",
     "editor.wordBasedSuggestionsMode": "allDocuments",
     "editor.parameterHints.enabled": true,
+    "editor.minimap.renderCharacters": false,
     "editor.quickSuggestions":
     {
         "other": "on",
@@ -90,9 +92,7 @@
         "textMateRules": [
             {
                 "scope": [
-                    "keyword.control",
-                    "support.function",
-                    "entity.name.function"
+                    "keyword.control"
                 ],
                 "settings": {
                     "foreground": "#00ff80"
@@ -101,10 +101,8 @@
             {
                 "scope": [
                     "source.shell",
-                    "keyword.operator.arithmetic",
                     "keyword.other.unit",
                     "punctuation.definition.string",
-                    "string.quoted.single",
                     "variable.other.constant"
                 ],
                 "settings": {
@@ -113,7 +111,6 @@
             },
             {
                 "scope": [
-                    "keyword.operator.logical",
                     "variable.language.this",
                     "entity.other.attribute-name",
                     "variable",
@@ -127,7 +124,7 @@
             },
             {
                 "scope": [
-                    // "comment"
+                    "comment"
                 ],
                 "settings": {
                     "foreground": "#7e7e7e"
@@ -143,15 +140,6 @@
             },
             {
                 "scope": [
-                    "string.quoted.double.cpp"
-                ],
-                "settings": {
-                    "foreground": "#ffffff"
-                }
-            },
-            {
-                "scope": [
-                    "keyword.operator.assignment.cpp",
                     "entity.name.namespace.cpp"
                 ],
                 "settings": {
@@ -175,33 +163,14 @@
                     "entity.name.type.class",
                     "entity.name.namespace",
                     "variable.parameter.function.language.python",
-                    "constant.numeric.float.python",
-                    "constant.numeric.dec.python",
-                    "constant.numeric.hex.python",
-                    "keyword.operator.bitwise.python",
                     "variable.parameter.function-call.python",
-                    "punctuation.definition.parameters.end.python",
-                    "punctuation.definition.parameters.begin.python",
-                    "keyword.operator.assignment.python",
-                    "keyword.operator.comparison.python",
                     "punctuation.separator.arguments.python",
                     "punctuation.separator.element.python",
                     "punctuation.separator.parameters.python",
                     "punctuation.separator.period.python",
-                    "punctuation.definition.arguments.end.python",
-                    "punctuation.definition.arguments.begin.python",
-                    "punctuation.definition.inheritance.end.python",
-                    "punctuation.definition.inheritance.begin.python",
-                    "punctuation.definition.parameters.begin.python",
-                    "punctuation.definition.parameters.end.python",
                     "punctuation.parenthesis.begin.python",
                     "punctuation.parenthesis.end.python",
-                    "punctuation.definition.list.end.python",
-                    "punctuation.definition.list.begin.python",
-                    "punctuation.definition.dict.end.python",
-                    "punctuation.definition.dict.begin.python",
-                    "constant.character.format.placeholder.other.python",
-                    "keyword.operator.logical.python"
+                    "constant.character.format.placeholder.other.python"
                 ],
                 "settings": {
                     "foreground": "#ffffff"
@@ -260,40 +229,22 @@
                     "constant.language.php",
                     "keyword.other.use-as.php",
                     "punctuation.separator.inheritance.php",
-                    "punctuation.definition.array.begin.bracket.round.php",
-                    "punctuation.definition.array.end.bracket.round.php",
-                    "constant.numeric.decimal.php",
-                    "string.quoted.double.php",
                     "keyword.other.type.php",
-                    "keyword.operator.assignment.php",
-                    "keyword.operator.comparison.php",
-                    "keyword.operator.ternary.php",
-                    "keyword.operator.increment-decrement.php",
-                    "keyword.operator.return-value.php",
-                    "keyword.operator.bitwise.php",
-                    "keyword.operator.string.php",
-                    "begin.bracket.round.blade.php",
-                    "end.bracket.round.blade.php",
-                    "punctuation.definition.interface.begin.bracket.curly.php",
-                    "punctuation.definition.interface.end.bracket.curly.php",
-                    "punctuation.definition.begin.bracket.curly.php",
-                    "punctuation.definition.end.bracket.curly.php",
-                    "punctuation.definition.arguments.begin.bracket.round.php",
-                    "punctuation.definition.arguments.end.bracket.round.php",
                     "punctuation.section.array.begin.php",
                     "punctuation.section.array.end.php",
-                    "punctuation.definition.parameters.begin.bracket.round.php",
-                    "punctuation.definition.parameters.end.bracket.round.php",
                     "punctuation.separator.delimiter.php",
-                    "punctuation.definition.class.begin.bracket.curly.php",
+                    "punctuation.separator.classes.php",
+                    "punctuation.definition.parameters.end.bracket.round.php",
+                    "punctuation.definition.parameters.begin.bracket.round.php",
+                    "punctuation.definition.array.begin.php",
+                    "punctuation.definition.begin.bracket.curly.php",
+                    "punctuation.definition.end.bracket.curly.php",
                     "punctuation.definition.class.end.bracket.curly.php",
-                    "punctuation.definition.begin.bracket.round.php",
-                    "punctuation.definition.end.bracket.round.php",
-                    "punctuation.definition.section.switch-block.begin.bracket.curly.php",
-                    "punctuation.definition.section.switch-block.end.bracket.curly.php",
-                    "punctuation.definition.switch-expression.begin.bracket.round.php",
-                    "punctuation.definition.switch-expression.end.bracket.round.php",
-                    "punctuation.separator.classes.php"
+                    "punctuation.definition.class.begin.bracket.curly.php",
+                    "punctuation.definition.arguments.begin.bracket.round.php",
+                    "punctuation.definition.arguments.end.bracket.round.php"
+
+
                 ],
                 "settings": {
                     "foreground": "#ffffff"
@@ -301,16 +252,9 @@
             },
             {
                 "scope": [
-                    "keyword.operator.class.php",
-                    "keyword.operator.logical.php",
                     "constant.character.escape.php",
-                    "punctuation.terminator.expression.php",
-                    "punctuation.definition.variable.php",
-                    "keyword.operator.type.php",
                     "keyword.other.function.use.php",
-                    "punctuation.terminator.statement.php",
-                    "keyword.operator.key.php",
-                    "keyword.operator.null-coalescing.php"
+                    "punctuation.terminator.statement.php"
                 ],
                 "settings": {
                     "foreground": "#ce9de8"
@@ -319,8 +263,6 @@
             {
                 "scope": [
                     "support.class.component.js",
-                    "punctuation.definition.tag.begin.js",
-                    "punctuation.definition.tag.end.js",
                     "entity.name.tag.js",
                     "constant.other.placeholder"
                 ],
@@ -330,32 +272,15 @@
             },
             {
                 "scope": [
-                    "string.quoted.double.js",
-                    "constant.numeric.decimal.js",
-                    "punctuation.definition.parameters.begin.js",
-                    "punctuation.definition.parameters.end.js",
-                    "punctuation.definition.block.js",
-                    "keyword.operator.assignment",
-                    "keyword.operator.relational",
-                    "keyword.operator.comparison.js",
-                    "keyword.operator.increment.js",
-                    "keyword.operator.decrement.js",
                     "meta.brace.square.js",
                     "meta.brace.round.js",
                     "punctuation.accessor.js",
-                    "punctuation.definition.section.case-statement.js",
                     "punctuation.separator.comma.js",
                     "punctuation.separator.key-value.js",
                     "meta.block.js",
                     "punctuation.separator.parameter.js",
                     "string.template.js",
-                    "punctuation.definition.template-expression.begin.js",
-                    "punctuation.definition.template-expression.end.js",
-                    "punctuation.definition.block.ts",
-                    "punctuation.separator.label.js",
-                    "keyword.operator.logical.js",
-                    "punctuation.definition.binding-pattern.object.js",
-                    "keyword.operator.ternary.js"
+                    "punctuation.separator.label.js"
                 ],
                 "settings": {
                     "foreground": "#ffffff"
@@ -364,13 +289,9 @@
             {
                 "scope": [
                     "support.class",
-                    "punctuation.terminator.statement.js",
                     "keyword.control.loop.js",
-                    "keyword.operator.new.js",
-                    "keyword.operator.expression.in.js",
                     "constant.language.boolean.true.js",
                     "constant.language.boolean.false.js",
-                    "keyword.operator.expression.delete.js",
                     "support.type.object.module.js",
                     "constant.language.undefined.js",
                     "constant.language.infinity.js",
@@ -380,7 +301,6 @@
                     "variable.object.property.js",
                     "punctuation.destructuring.js",
                     "constant.language.null.js",
-                    "keyword.operator.expression.of.js",
                     "support.variable.property",
                     "support.variable.js"
                 ],
@@ -390,21 +310,7 @@
             },
             {
                 "scope": [
-                    "keyword.operator.expression.import.js",
-                    "keyword.operator.expression.typeof.js"
-                ],
-                "settings": {
-                    "foreground": "#00ff80"
-                }
-            },
-            {
-                "scope": [
-                    "string.quoted.double.ts",
                     "keyword.other.js",
-                    "keyword.operator.ternary.ts",
-                    "keyword.operator.spread.js",
-                    "keyword.operator.comparison.ts",
-                    "constant.numeric.decimal.ts",
                     "punctuation.accessor.ts",
                     "meta.block.ts",
                     "constant.language.boolean.false.ts",
@@ -412,10 +318,6 @@
                     "punctuation.separator.comma.ts",
                     "punctuation.separator.label.ts",
                     "entity.name.label.ts",
-                    "punctuation.definition.template-expression.begin.ts",
-                    "punctuation.definition.template-expression.end.ts",
-                    "keyword.operator.decrement.ts",
-                    "keyword.operator.increment.ts",
                     "meta.brace.round.ts"
                 ],
                 "settings": {
@@ -426,10 +328,7 @@
                 "scope": [
                     "string.template.ts",
                     "constant.language.null.ts",
-                    "keyword.operator.expression.in.ts",
-                    "keyword.operator.bitwise.ts",
                     "punctuation.decorator.ts",
-                    "keyword.operator.new.ts",
                     "keyword.other.ts",
                     "constant.language.null.ts"
                 ],
@@ -440,13 +339,13 @@
             {
                 "scope": [
                     "entity.name.tag.html",
-                    "punctuation.definition.tag.begin.html",
-                    "punctuation.definition.tag.end.html",
                     "entity.name.tag.block.any.html",
                     "entity.name.tag.script.html",
                     "entity.name.tag.style.html",
                     "entity.name.tag.template.html",
-                    "support.class.component.html"
+                    "support.class.component.html",
+                    "punctuation.definition.tag.begin.html",
+                    "punctuation.definition.tag.end.html"
                 ],
                 "settings": {
                     "foreground": "#00ff80"
@@ -455,13 +354,8 @@
             {
                 "scope": [
                     "punctuation.separator.key-value.html",
-                    "string.quoted.double.html",
                     "meta.tag.block.any.html",
-                    "punctuation.definition.generic.end.html",
-                    "punctuation.definition.generic.begin.html",
-                    "text.html.derivative",
-                    "meta.tag.any.html",
-                    "text.html.php"
+                    "meta.tag.any.html"
                 ],
                 "settings": {
                     "foreground": "#ffffff"
@@ -478,8 +372,6 @@
             },
             {
                 "scope": [
-                    "punctuation.definition.tag.end.html.vue",
-                    "punctuation.definition.tag.begin.html.vue",
                     "support.class.component.vue",
                     "entity.name.tag.router-link.html.vue"
                 ],
@@ -507,8 +399,7 @@
             },
             {
                 "scope": [
-                    "entity.name.section.markdown",
-                    "punctuation.definition.markdown"
+                    "entity.name.section.markdown"
                 ],
                 "settings": {
                     "foreground": "#00ff80"
@@ -516,20 +407,8 @@
             },
             {
                 "scope": [
-                    "punctuation.definition.raw.markdown"
-                ],
-                "settings": {
-                    "foreground": "#ffffff"
-                }
-            },
-            {
-                "scope": [
-                    "punctuation.definition.heading.markdown",
                     "markup.inline.raw.string.markdown",
-                    "punctuation.definition.quote.begin.markdown",
-                    "punctuation.definition.list.begin.markdown",
-                    "markup.bold.markdown",
-                    "punctuation.definition.bold.markdown"
+                    "markup.bold.markdown"
                 ],
                 "settings": {
                     "foreground": "#ce9de8"
@@ -545,8 +424,6 @@
             },
             {
                 "scope": [
-                    "support.function.construct.begin.blade",
-                    "support.function.construct.end.blade",
                     "text.html.php.blade"
                 ],
                 "settings": {
@@ -555,14 +432,8 @@
             },
             {
                 "scope": [
-                    "keyword.operator.or.regexp",
                     "keyword.control.anchor.regexp",
-                    "keyword.operator.quantifier.regexp",
-                    "punctuation.definition.group.regexp",
-                    "punctuation.definition.character-class.regexp",
-                    "punctuation.definition.group.assertion.regexp",
                     "constant.other.character-class.regexp",
-                    "punctuation.definition.group.no-capture.regexp",
                     "string.regexp",
                     "string.regexp.js"
                 ],
@@ -572,15 +443,11 @@
             },
             {
                 "scope": [
-                    "support.function.misc.scss",
                     "entity.name.tag.wildcard.scss",
-                    "punctuation.definition.keyword.scss",
-                    "punctuation.definition.keyword.css",
                     "meta.property-value.scss",
                     "entity.name.tag.css",
                     "entity.other.attribute-name.id.css",
                     "entity.other.attribute-name.class.css",
-                    "support.function.transform.css",
                     "entity.other.attribute-name.pseudo-class.css",
                     "entity.name.tag.wildcard.css",
                     "support.constant.media.css",
@@ -593,51 +460,28 @@
             },
             {
                 "scope": [
-                    // "punctuation.section.property-list.begin.bracket.curly.scss",
-                    // "punctuation.section.property-list.end.bracket.curly.scss",
-                    // "punctuation.section.function.scss",
-                    // "punctuation.definition.media-query.begin.bracket.round.scss",
-                    // "punctuation.separator.delimiter.scss",
-                    // "punctuation.separator.key-value.scss",
-                    // "punctuation.section.keyframes.begin.scss",
-                    // "punctuation.section.keyframes.end.scss",
-                    // "meta.property-value.scss",
-                    // "punctuation.definition.media-query.end.bracket.round.scss",
-                    // "support.type.vendored.property-name.css",
-                    // "support.type.property-name.css",
-                    // "support.constant.property-value.css",
-                    // "constant.numeric.css",
-                    // "support.constant.color.w3c-extended-color-name.css",
-                    // "support.constant.color.w3c-standard-color-name.css",
-                    // "constant.other.color.rgb-value.hex.css",
-                    // "support.constant.font-name.css",
-                    // "support.constant.vendored.property-value.css",
-                    // "punctuation.definition.constant.css",
-                    // "punctuation.section.property-list.begin.bracket.curly.css",
-                    // "punctuation.section.property-list.end.bracket.curly.css",
-                    // "punctuation.section.media.begin.bracket.curly.css",
-                    // "punctuation.section.media.end.bracket.curly.css",
-                    // "punctuation.section.function.begin.bracket.round.css",
-                    // "punctuation.section.function.end.bracket.round.css",
-                    // "punctuation.definition.parameters.begin.bracket.round.css",
-                    // "punctuation.definition.parameters.end.bracket.round.css",
-                    // "punctuation.separator.list.comma.css",
-                    // "punctuation.separator.key-value.css",
-                    // "punctuation.definition.pseudo-class.begin.bracket.round.css",
-                    // "punctuation.definition.pseudo-class.end.bracket.round.css",
-                    // "punctuation.section.keyframes.begin.css",
-                    // "punctuation.section.keyframes.end.css",
-                    // "meta.property-value.css",
-                    // "keyword.operator.combinator.css",
-                    // "punctuation.definition.entity.css",
-                    // "string.quoted.double.css",
-                    // "string.unquoted.attribute-value.css",
-                    // "punctuation.definition.entity.begin.bracket.square.css",
-                    // "punctuation.definition.entity.end.bracket.square.css",
-                    // "keyword.operator.pattern.css",
-                    // "punctuation.section.keyframes.end.bracket.curly.css",
-                    // "punctuation.section.keyframes.begin.bracket.curly.css",
-                    // "invalid.deprecated.combinator.css"
+                    "punctuation.section.function.scss",
+                    "punctuation.separator.delimiter.scss",
+                    "punctuation.separator.key-value.scss",
+                    "punctuation.section.keyframes.begin.scss",
+                    "punctuation.section.keyframes.end.scss",
+                    "punctuation.section.keyframes.begin.css",
+                    "punctuation.section.keyframes.end.css",
+                    "meta.property-value.scss",
+                    "support.type.vendored.property-name.css",
+                    "support.type.property-name.css",
+                    "support.constant.property-value.css",
+                    "support.constant.color.w3c-extended-color-name.css",
+                    "support.constant.color.w3c-standard-color-name.css",
+                    "constant.other.color.rgb-value.hex.css",
+                    "support.constant.font-name.css",
+                    "support.constant.vendored.property-value.css",
+                    "punctuation.separator.list.comma.css",
+                    "punctuation.separator.key-value.css",
+                    "meta.property-value.css",
+                    "string.unquoted.attribute-value.css",
+                    "invalid.deprecated.combinator.css",
+                    "punctuation.definition.entity.css"
                 ],
                 "settings": {
                     "foreground": "#ffffff"
@@ -655,8 +499,6 @@
                     "keyword.other.important.css",
                     "entity.other.keyframe-offset.percentage.css",
                     "entity.other.attribute-name.pseudo-element.css",
-                    "punctuation.definition.entity.css",
-                    "punctuation.definition.keyword.css",
                     "constant.character.escape.codepoint.css"
                 ],
                 "settings": {
@@ -666,9 +508,9 @@
         ]
     },
 
-     // --------------- Github Copilot settings ---------------
-     "github.copilot.enable":
-     {
+    // --------------- Github Copilot settings ---------------
+    "github.copilot.enable":
+    {
         "*": true,
         "yaml": false,
         "plaintext": true,
@@ -734,24 +576,10 @@
 
     // -------------------------- Vibrancy Effect --------------------
     "vscode_vibrancy.opacity": 0.85,
+    "vscode_custom_css.imports": [
+        "file:///C:/Sync-editor/VScode/css-custom-thep200.css"
+    ],
 
     "json.schemas": [
-
-    ],
-    "diffEditor.ignoreTrimWhitespace": false,
-    "zenMode.hideLineNumbers": false,
-    "editor.minimap.renderCharacters": false,
-    "window.commandCenter": true,
-
-    // -------------- store color --------------
-    // e66eee => Tím
-    // c586c0 => Tím
-    // ce9de8 =>Tím
-    // a5d6ff => Xanh string.
-    // bef0ea => Xanh ngọc
-
-    // -------------- Custom vscode css and js loader --------------
-    "vscode_custom_css.imports": [
-        "file:///F:/8.Sync-editor/VScode/css-custom-thep200.css"
     ]
 }

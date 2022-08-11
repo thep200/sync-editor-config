@@ -1,52 +1,46 @@
 /* ----------- Custom css ---------- */
 /* for , . ; [{( suggestion */
-.mtk1 {
-  color: #fff;
-  text-shadow: 0 0 1px #000,
-               0 0 2px #000,
-               0 0 4px #000,
-               0 0 11px #f8f8f2;
-}
+  .mtk1 {
+    color: #fff;
+    text-shadow: 0 0 3px #1c1c1c,
+                 0 0 5px #1c1c1c,
+                 0 0 7px #f2f2f2;
+  }
 
-.mtk5 {
-  color: #fff;
-  text-shadow: 0 0 1px #000,
-               0 0 2px #000,
-               0 0 4px #000,
-               0 0 11px #f8f8f2;
-}
+  .mtk5 {
+    color: #fff;
+    text-shadow: 0 0 3px #1c1c1c,
+                 0 0 5px #1c1c1c,
+                 0 0 7px #f2f2f2;
+  }
 
-/* numeric */
-.mtk6 {
-  color: #fff;
-  text-shadow: 0 0 1px #000,
-               0 0 2px #000,
-               0 0 4px #000,
-               0 0 11px #f8f8f2;
-}
+  /* numeric */
+  .mtk6 {
+    color: #fff;
+    text-shadow: 0 0 3px #1c1c1c,
+                 0 0 5px #1c1c1c,
+                 0 0 7px #f2f2f2;
+  }
 
-/* ' " string */
-.mtk11 {
-  color: #fff;
-  text-shadow: 0 0 1px #000,
-               0 0 2px #000,
-               0 0 4px #000,
-               0 0 11px #f8f8f2;
-}
+  /* ' " string */
+  .mtk11 {
+    color: #fff;
+    text-shadow: 0 0 3px #1c1c1c,
+                 0 0 5px #1c1c1c,
+                 0 0 7px #f2f2f2;
+  }
 
-/* function */
-.mtk15 {
-  color: #fdfdfd;
-  text-shadow: 0 0 1px #af11ff,
-               0 0 2px #af11ff,
-               0 0 4px #af11ff,
-               0 0 11px #af11ff;
-}
+  /* function */
+  .mtk15 {
+    color: #fdfdfd;
+    text-shadow: 0 0 3px #af11ff,
+                 0 0 5px #af11ff,
+                 0 0 9px #ce9de8;
+  }
 
-.mtk21 {
-  color: #fff;
-  text-shadow: 0 0 1px #000,
-               0 0 2px #000,
-               0 0 4px #000,
-               0 0 11px #f8f8f2;
-}
+  .mtk21 {
+    color: #fff;
+    text-shadow: 0 0 3px #1c1c1c,
+                 0 0 5px #1c1c1c,
+                 0 0 7px #f2f2f2;
+  }
