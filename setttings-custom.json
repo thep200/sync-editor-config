@@ -83,7 +83,7 @@
 
         // tab
         "tab.activeBorder": "#00ff80",
-        "tab.hoverForeground": "#f5f5f5"
+        "tab.hoverForeground": "#f5f5f5",
     },
 
     // -------------- Custom color themes --------------
@@ -170,7 +170,7 @@
                     "punctuation.separator.period.python",
                     "punctuation.parenthesis.begin.python",
                     "punctuation.parenthesis.end.python",
-                    "constant.character.format.placeholder.other.python"
+                    "constant.character.format.placeholder.other.python",
                 ],
                 "settings": {
                     "foreground": "#ffffff"
@@ -242,7 +242,7 @@
                     "punctuation.definition.class.end.bracket.curly.php",
                     "punctuation.definition.class.begin.bracket.curly.php",
                     "punctuation.definition.arguments.begin.bracket.round.php",
-                    "punctuation.definition.arguments.end.bracket.round.php"
+                    "punctuation.definition.arguments.end.bracket.round.php",
 
 
                 ],
@@ -280,7 +280,7 @@
                     "meta.block.js",
                     "punctuation.separator.parameter.js",
                     "string.template.js",
-                    "punctuation.separator.label.js"
+                    "punctuation.separator.label.js",
                 ],
                 "settings": {
                     "foreground": "#ffffff"
@@ -565,7 +565,7 @@
     "vetur.completion.scaffoldSnippetSources": {
         "workspace": "🥦",
         "user": "🦥",
-        "vetur": "👻"
+        "vetur": "👻",
         // 🤖
     },
 
@@ -577,9 +577,9 @@
     // -------------------------- Vibrancy Effect --------------------
     "vscode_vibrancy.opacity": 0.85,
     "vscode_custom_css.imports": [
-        "file:///C:/Sync-editor/VScode/css-custom-thep200.css"
+        "file:///C:/sync-editor-config/css-custom-thep200.css",
     ],
 
     "json.schemas": [
-    ]
+    ],
 }
