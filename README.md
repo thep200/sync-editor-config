@@ -12,4 +12,4 @@ The config file vs the code and custom colors of the elements in the editor, acc
 ],
 ```
 ## Bonus
-See more about tricks and tips on github here: [Git notes and tips](https://github.com/thep200/git-and-something-related-notes/blob/master/Git-notes/gitjoy.md)
+See more about tricks and tips on github here: [Git notes and tips](https://github.com/thep200/git-notes)
