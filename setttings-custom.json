@@ -43,7 +43,7 @@
     },
 
     // --------------- Terminal settings ---------------
-    "terminal.integrated.fontFamily": "Fira Code",
+    "terminal.integrated.fontFamily": "Fira code",
     "terminal.integrated.defaultProfile.windows": "Git Bash",
     "terminal.integrated.copyOnSelection": true,
     "terminal.integrated.gpuAcceleration": "off",
@@ -103,7 +103,9 @@
                     "source.shell",
                     "keyword.other.unit",
                     "punctuation.definition.string",
-                    "variable.other.constant"
+                    "variable.other.constant",
+                    "entity.other.inherited-class",
+                    "constant.character.escape"
                 ],
                 "settings": {
                     "foreground": "#ffffff"
@@ -115,7 +117,7 @@
                     "entity.other.attribute-name",
                     "variable",
                     "storage.type",
-                    "storage.modifier",
+                    "storage.modifier"
                 ],
                 "settings": {
                     "foreground": "#ce9de8"
@@ -150,7 +152,7 @@
                     "support.function.builtin.python",
                     "support.type.python",
                     "meta.function-call.generic.python",
-                    "entity.name.type.class.python",
+                    "entity.name.type.class.python"
                 ],
                 "settings": {
                     "foreground": "#00ff80"
@@ -241,7 +243,13 @@
                     "punctuation.definition.begin.bracket.round.php",
                     "punctuation.definition.end.bracket.round.php",
                     "punctuation.terminator.expression.php",
-                    "punctuation.definition.variable.php"
+                    "punctuation.definition.variable.php",
+                    "punctuation.definition.interface.begin.bracket.curly.php",
+                    "punctuation.definition.interface.end.bracket.curly.php",
+                    "punctuation.definition.switch-expression.end.bracket.round.php",
+                    "punctuation.definition.switch-expression.begin.bracket.round.php",
+                    "punctuation.definition.section.switch-block.begin.bracket.curly.php",
+                    "punctuation.definition.section.switch-block.end.bracket.curly.php"
                 ],
                 "settings": {
                     "foreground": "#ffffff"
@@ -277,7 +285,7 @@
                     "meta.block.js",
                     "punctuation.separator.parameter.js",
                     "string.template.js",
-                    "punctuation.separator.label.js",
+                    "punctuation.separator.label.js"
                 ],
                 "settings": {
                     "foreground": "#ffffff"
@@ -478,7 +486,15 @@
                     "meta.property-value.css",
                     "string.unquoted.attribute-value.css",
                     "invalid.deprecated.combinator.css",
-                    "punctuation.definition.entity.css"
+                    "punctuation.definition.entity.css",
+                    "entity.other.attribute-name.scss",
+                    "punctuation.section.property-list.begin.bracket.curly.scss",
+                    "punctuation.section.property-list.end.bracket.curly.scss",
+                    "entity.name.tag.reference.scss",
+                    "punctuation.terminator.rule.scss",
+                    "punctuation.definition.media-query.begin.bracket.round.scss",
+                    "punctuation.definition.media-query.end.bracket.round.scss",
+                    "punctuation.definition.keyword.scss",
                 ],
                 "settings": {
                     "foreground": "#ffffff"
@@ -486,9 +502,8 @@
             },
             {
                 "scope": [
+                    "variable.scss",
                     "meta.property-list.scss",
-                    "punctuation.terminator.rule.scss",
-                    "entity.name.tag.reference.scss",
                     "keyword.other.important.scss",
                     "entity.name.tag.reference.css",
                     "keyword.other.important.css",
@@ -547,7 +562,7 @@
     "gitlens.hovers.currentLine.over": "line",
     "gitlens.codeLens.enabled": false,
     "gitlens.currentLine.enabled": false,
-    "editor.codeLensFontFamily": "Fira Code",
+    "editor.codeLensFontFamily": "Fira code",
     "diffEditor.codeLens": true,
 
     // ----------------- Vue settings -----------------
@@ -572,9 +587,5 @@
     "vscode_vibrancy.opacity": 0.9,
     "vscode_custom_css.imports": [
         "file:///C:/sync-editor-config/css-custom-thep200.css",
-    ],
-
-    "json.schemas": [
-
     ],
 }
