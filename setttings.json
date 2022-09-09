@@ -5,10 +5,11 @@
     "editor.fontSize": 16,
     "editor.autoClosingBrackets": "always",
     "editor.bracketPairColorization.enabled": false,
-    "editor.fastScrollSensitivity": 7,
+    "editor.fastScrollSensitivity": 10,
     "editor.definitionLinkOpensInPeek": true,
     "editor.autoClosingQuotes": "always",
     "editor.smoothScrolling": true,
+    "editor.stickyScroll.enabled": true,
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
     "window.confirmBeforeClose": "always",
@@ -19,6 +20,7 @@
     "diffEditor.ignoreTrimWhitespace": false,
     "zenMode.hideLineNumbers": false,
     "window.commandCenter": true,
+    "security.workspace.trust.untrustedFiles": "open",
 
     // -------------- Mouse settings --------------
     "editor.cursorSmoothCaretAnimation": true,
@@ -47,8 +49,8 @@
     "terminal.integrated.defaultProfile.windows": "Git Bash",
     "terminal.integrated.copyOnSelection": true,
     "terminal.integrated.gpuAcceleration": "off",
-    "security.workspace.trust.untrustedFiles": "open",
 	"terminal.integrated.fontWeight": "500",
+    // "terminal.integrated.smoothScrolling": true,
 
     // file setting
     "window.doubleClickIconToClose": true,
