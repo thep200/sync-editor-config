@@ -1,6 +1,7 @@
 # Sync-editor-config-thep200
 The config file vs the code and custom colors of the elements in the editor, according to the sample neon glow.
 ## Requirements
+- Using themes `Default Dark`
 - Extension: [Custom CSS and Loader](https://marketplace.visualstudio.com/items?itemName=be5invis.vscode-custom-css)
 ## Usage
 - Clone repo to C:

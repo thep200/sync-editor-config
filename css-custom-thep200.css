@@ -4,14 +4,14 @@
     color: #fff;
     text-shadow: 0 0 3px #1c1c1c,
                  0 0 5px #1c1c1c,
-                 0 0 7px #f2f2f2;
+                 0 0 9px #f2f2f2;
   }
 
   .mtk5 {
     color: #fff;
     text-shadow: 0 0 3px #1c1c1c,
                  0 0 5px #1c1c1c,
-                 0 0 7px #f2f2f2;
+                 0 0 9px #f2f2f2;
   }
 
   /* numeric */
@@ -19,7 +19,7 @@
     color: #fff;
     text-shadow: 0 0 3px #1c1c1c,
                  0 0 5px #1c1c1c,
-                 0 0 7px #f2f2f2;
+                 0 0 9px #f2f2f2;
   }
 
   /* ' " string */
@@ -27,20 +27,20 @@
     color: #fff;
     text-shadow: 0 0 3px #1c1c1c,
                  0 0 5px #1c1c1c,
-                 0 0 7px #f2f2f2;
+                 0 0 9px #f2f2f2;
   }
 
   /* function */
   .mtk15 {
     color: #fff;
     text-shadow: 0 0 3px #af11ff,
-                 0 0 5px #af11ff,
-                 0 0 9px #ce9de8;
+                 0 0 7px #af11ff,
+                 0 0 11px #ce9de8;
   }
 
   .mtk21 {
     color: #fff;
     text-shadow: 0 0 3px #1c1c1c,
                  0 0 5px #1c1c1c,
-                 0 0 7px #f2f2f2;
+                 0 0 9px #f2f2f2;
   }
