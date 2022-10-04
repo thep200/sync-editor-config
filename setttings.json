@@ -12,7 +12,6 @@
     "editor.stickyScroll.enabled": true,
     "files.insertFinalNewline": true,
     "files.trimTrailingWhitespace": true,
-    "window.confirmBeforeClose": "always",
     "workbench.commandPalette.preserveInput": true,
     "workbench.list.smoothScrolling": true,
     "workbench.editor.splitInGroupLayout": "vertical",
@@ -27,8 +26,9 @@
     "terminal.integrated.cursorBlinking": true,
 
     // --------------- IntelliSense completely setting ---------------
-    "editor.suggest.preview": true,
     "editor.tabCompletion": "on",
+    "editor.suggest.preview": true,
+    "editor.suggest.localityBonus": true,
     "editor.suggest.shareSuggestSelections": true,
     "editor.suggest.showIcons": true,
     "editor.quickSuggestionsDelay": 3,
@@ -50,7 +50,7 @@
     "terminal.integrated.copyOnSelection": true,
     "terminal.integrated.gpuAcceleration": "off",
 	"terminal.integrated.fontWeight": "500",
-    // "terminal.integrated.smoothScrolling": true,
+    "terminal.integrated.smoothScrolling": true,
 
     // file setting
     "window.doubleClickIconToClose": true,
@@ -70,22 +70,17 @@
     // workbench
     "workbench.colorCustomizations":
     {
-        // search border
-        "input.border": "#222e3e",
-
-        // terminal
-        "terminal.foreground" : "#d7d7d7",
-        "terminalCursor.background":"#00ff80",
-        "terminalCursor.foreground":"#fff",
-        "terminal.ansiGreen":"#00ff80",
-        "terminal.ansiMagenta":"#fff",
-        "terminal.ansiYellow":"#fff",
-        "terminal.ansiCyan":"#ce9de8",
-        "terminal.ansiBrightCyan":"#fff",
-
-        // tab
-        "tab.activeBorder": "#00ff80",
-        "tab.hoverForeground": "#f5f5f5",
+        "input.border": "#007fd4",
+        "terminal.foreground": "#d7d7d7",
+        "terminalCursor.background": "#00ff80",
+        "terminalCursor.foreground": "#fff",
+        "terminal.ansiGreen": "#00ff80",
+        "terminal.ansiMagenta": "#fff",
+        "terminal.ansiYellow": "#fff",
+        "terminal.ansiCyan": "#ce9de8",
+        "terminal.ansiBrightCyan": "#fff",
+        "tab.activeBorder": "#FFC300",
+        "tab.hoverForeground": "#f5f5f5"
     },
 
     // -------------- Custom color themes --------------
@@ -520,24 +515,6 @@
         ]
     },
 
-    // --------------- Github Copilot settings ---------------
-    "github.copilot.enable":
-    {
-        "*": true,
-        "yaml": false,
-        "plaintext": true,
-        "markdown": true,
-        "php": true,
-        "cpp": false,
-        "python": true,
-        "blade": false,
-        "jsonc": true,
-        "html": true,
-        "javascript": true,
-        "vue": true,
-        "sql": true
-    },
-
     // ------------------- Python settings -------------------
     "python.languageServer": "Pylance",
     "python.autoComplete.extraPaths": [],
@@ -580,14 +557,10 @@
         "vetur": "👻",
     },
 
-    // ---------------- LiveServer settings ----------------
-    "liveServer.settings.donotShowInfoMsg": true,
-    "liveServer.settings.CustomBrowser": "chrome",
-    "liveServer.settings.donotVerifyTags": true,
-
     // -------------------------- Vibrancy Effect --------------------
-    "vscode_vibrancy.opacity": 0.9,
+    "vscode_vibrancy.opacity": 0.95,
     "vscode_custom_css.imports": [
-        "file:///C:/sync-editor-config/css-custom-thep200.css",
+        "file:///C:/sync-editor-config/css-custom-thep200.css"
     ],
+    "json.schemas": [],
 }

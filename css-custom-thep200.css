@@ -1,46 +1,65 @@
 /* ----------- Custom css ---------- */
 /* for , . ; [{( suggestion */
-  .mtk1 {
-    color: #fff;
-    text-shadow: 0 0 3px #1c1c1c,
-                 0 0 5px #1c1c1c,
-                 0 0 9px #f2f2f2;
-  }
+.mtk1 {
+  color: #fff;
+  text-shadow: 0 0 3px #1c1c1c,
+               0 0 5px #1c1c1c,
+               0 0 9px #f2f2f2;
+}
 
-  .mtk5 {
-    color: #fff;
-    text-shadow: 0 0 3px #1c1c1c,
-                 0 0 5px #1c1c1c,
-                 0 0 9px #f2f2f2;
-  }
+.mtk5 {
+  color: #fff;
+  text-shadow: 0 0 3px #1c1c1c,
+               0 0 5px #1c1c1c,
+               0 0 9px #f2f2f2;
+}
 
-  /* numeric */
-  .mtk6 {
-    color: #fff;
-    text-shadow: 0 0 3px #1c1c1c,
-                 0 0 5px #1c1c1c,
-                 0 0 9px #f2f2f2;
-  }
+/* numeric */
+.mtk6 {
+  color: #fff;
+  text-shadow: 0 0 3px #1c1c1c,
+               0 0 5px #1c1c1c,
+               0 0 9px #f2f2f2;
+}
 
-  /* ' " string */
-  .mtk11 {
-    color: #fff;
-    text-shadow: 0 0 3px #1c1c1c,
-                 0 0 5px #1c1c1c,
-                 0 0 9px #f2f2f2;
-  }
+/* ' " string */
+.mtk11 {
+  color: #fff;
+  text-shadow: 0 0 3px #1c1c1c,
+               0 0 5px #1c1c1c,
+               0 0 9px #f2f2f2;
+}
 
-  /* function */
-  .mtk15 {
-    color: #fff;
-    text-shadow: 0 0 3px #af11ff,
-                 0 0 7px #af11ff,
-                 0 0 11px #ce9de8;
-  }
+/* function */
+.mtk15 {
+  color: #fff;
+  text-shadow: 0 0 3px #af11ff,
+               0 0 7px #af11ff,
+               0 0 11px #ce9de8;
+}
 
-  .mtk21 {
-    color: #fff;
-    text-shadow: 0 0 3px #1c1c1c,
-                 0 0 5px #1c1c1c,
-                 0 0 9px #f2f2f2;
-  }
+.mtk21 {
+  color: #fff;
+  text-shadow: 0 0 3px #1c1c1c,
+               0 0 5px #1c1c1c,
+               0 0 9px #f2f2f2;
+}
+
+/* Border selected file */
+.monaco-list.settings-toc-tree .monaco-list-row.selected,
+.monaco-list.settings-toc-tree .monaco-list-row.focused,
+.monaco-list .monaco-list-row.selected,
+.monaco-list.settings-toc-tree:not(.drop-target)
+.monaco-list-row:hover:not(.selected):not(.focused) {
+  color: #fff;
+  font-style: italic !important;
+  border-radius: 2px;
+  border: 1px solid #FFC300;
+}
+
+/* Input border */
+.monaco-inputbox {
+  color: #fff;
+  border-radius: 2px;
+  border-bottom: 1px, solid blue;
+}
