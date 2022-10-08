@@ -1,6 +1,103 @@
 /* ----------- Custom css ---------- */
-/* for , . ; [{( suggestion */
+/* Notes */
+/*
+  .mtk1   : Symbol . ; [{( Suggestion inline
+  .mtk5   : Namespace definite default
+  .mtk6   : Numeric
+  .mtk8   : Class of html
+  .mtk9   : Like variable of function
+  .mtk11  : String
+  .mtk13  : Like </ > tag of html
+  .mtk15  : Function
+  .mtk16  : Like Vanguard\Http\Resources\image.jpg
+  .mtk17  : Like return
+  .mtk23  : Comments
+*/
+
+/* Colors used */
+.Colors-used {
+  color: #FFFFF0;
+  color: #50C878;
+  color: #00FF7F;
+  color: #CF9FFF;
+  color: #E0B0FF;
+  color: #1B1212;
+  color: #FF5733;
+  color: #89CFF0;
+}
+
+/* Common */
+/* Border selected file */
+.monaco-list.settings-toc-tree .monaco-list-row.selected,
+.monaco-list.settings-toc-tree .monaco-list-row.focused,
+.monaco-list .monaco-list-row.selected,
+.monaco-list.settings-toc-tree:not(.drop-target)
+.monaco-list-row:hover:not(.selected):not(.focused) {
+  color: #FFFFF0;
+  border-radius: 2px;
+  border: 1px solid #1F51FF;
+}
+
+/* Input border */
+.monaco-inputbox {
+  color: #FFFFF0;
+  border-radius: 2px;
+  border-bottom: 1px solid #1F51FF;
+}
+
+/* Normal mode */
 .mtk1 {
+  color: #FFFFF0;
+}
+
+.mtk5 {
+  color: #50C878;
+}
+
+.mtk6 {
+  color: #fff;
+  text-shadow: 0 0 1px #1B1212,
+               0 0 3px #1B1212,
+               0 0 5px #FF5733;
+}
+
+.mtk8 {
+  color: #50C878;
+}
+
+.mtk9 {
+  color: #CF9FFF;
+}
+
+.mtk11 {
+  color: #FFF;
+}
+
+.mtk13 {
+  color: #00FF7F;
+}
+
+.mtk15 {
+  color: #fff;
+  text-shadow: 0 0 1px #AF11FF,
+               0 0 3px #AF11FF,
+               0 0 5px #CE9DE8;
+}
+
+.mtk16 {
+  color: #00FF7F;
+}
+
+.mtk17 {
+  color: #E0B0FF;
+}
+
+.mtk23 {
+  font-style: italic;
+}
+
+/* Glow mode */
+/* .mtk1 {
   color: #fff;
   text-shadow: 0 0 3px #1c1c1c,
                0 0 5px #1c1c1c,
@@ -14,7 +111,6 @@
                0 0 9px #f2f2f2;
 }
 
-/* numeric */
 .mtk6 {
   color: #fff;
   text-shadow: 0 0 3px #1c1c1c,
@@ -22,7 +118,6 @@
                0 0 9px #f2f2f2;
 }
 
-/* ' " string */
 .mtk11 {
   color: #fff;
   text-shadow: 0 0 3px #1c1c1c,
@@ -30,7 +125,6 @@
                0 0 9px #f2f2f2;
 }
 
-/* function */
 .mtk15 {
   color: #fff;
   text-shadow: 0 0 3px #af11ff,
@@ -43,23 +137,4 @@
   text-shadow: 0 0 3px #1c1c1c,
                0 0 5px #1c1c1c,
                0 0 9px #f2f2f2;
-}
-
-/* Border selected file */
-.monaco-list.settings-toc-tree .monaco-list-row.selected,
-.monaco-list.settings-toc-tree .monaco-list-row.focused,
-.monaco-list .monaco-list-row.selected,
-.monaco-list.settings-toc-tree:not(.drop-target)
-.monaco-list-row:hover:not(.selected):not(.focused) {
-  color: #fff;
-  font-style: italic !important;
-  border-radius: 2px;
-  border: 1px solid #FFC300;
-}
-
-/* Input border */
-.monaco-inputbox {
-  color: #fff;
-  border-radius: 2px;
-  border-bottom: 1px, solid blue;
-}
+} */
