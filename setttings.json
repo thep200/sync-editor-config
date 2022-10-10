@@ -75,7 +75,7 @@
     // workbench
     "workbench.colorCustomizations":
     {
-        "input.border": "#1F51FF",
+        "input.border": "#1E90FF",
         "terminal.foreground": "#d7d7d7",
         "terminalCursor.background": "#00FF7F",
         "terminalCursor.foreground": "#FFFFF0",
@@ -84,8 +84,8 @@
         "terminal.ansiYellow": "#FFFFF0",
         "terminal.ansiCyan": "#CF9FFF",
         "terminal.ansiBrightCyan": "#FFFFF0",
-        "tab.activeBorder": "#1F51FF",
-        "tab.hoverForeground": "#F5F5F5"
+        "tab.activeBorder": "#1E90FF",
+        "tab.hoverForeground": "#FFFFFF"
     },
 
     // -------------- Custom color themes --------------
@@ -122,7 +122,7 @@
                     // "storage.modifier"
                 ],
                 "settings": {
-                    "foreground": "#CF9FFF"
+                    "foreground": "#E0B0FF"
                 }
             },
             {
@@ -146,7 +146,7 @@
                     // "entity.name.namespace.cpp"
                 ],
                 "settings": {
-                    "foreground": "#CF9FFF"
+                    "foreground": "#E0B0FF"
                 }
             },
             {
@@ -186,7 +186,7 @@
                     // "constant.language.python"
                 ],
                 "settings": {
-                    "foreground": "#CF9FFF"
+                    "foreground": "#E0B0FF"
                 }
             },
             {
@@ -264,7 +264,7 @@
                     // "punctuation.terminator.statement.php"
                 ],
                 "settings": {
-                    "foreground": "#CF9FFF"
+                    "foreground": "#E0B0FF"
                 }
             },
             {
@@ -312,7 +312,7 @@
                     // "support.variable.js"
                 ],
                 "settings": {
-                    "foreground": "#CF9FFF"
+                    "foreground": "#E0B0FF"
                 }
             },
             {
@@ -340,7 +340,7 @@
                     // "constant.language.null.ts"
                 ],
                 "settings": {
-                    "foreground": "#CF9FFF"
+                    "foreground": "#E0B0FF"
                 }
             },
             {
@@ -374,7 +374,7 @@
                     // "entity.other.attribute-name.id.html"
                 ],
                 "settings": {
-                    "foreground": "#CF9FFF"
+                    "foreground": "#E0B0FF"
                 }
             },
             {
@@ -401,7 +401,7 @@
                     // "keyword.control.conditional.vue"
                 ],
                 "settings": {
-                    "foreground": "#CF9FFF"
+                    "foreground": "#E0B0FF"
                 }
             },
             {
@@ -418,7 +418,7 @@
                     // "markup.bold.markdown"
                 ],
                 "settings": {
-                    "foreground": "#CF9FFF"
+                    "foreground": "#E0B0FF"
                 }
             },
             {
@@ -514,7 +514,7 @@
                     // "constant.character.escape.codepoint.css"
                 ],
                 "settings": {
-                    "foreground": "#CF9FFF"
+                    "foreground": "#E0B0FF"
                 }
             }
         ]

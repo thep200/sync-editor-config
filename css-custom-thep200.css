@@ -6,6 +6,7 @@
   .mtk6   : Numeric
   .mtk8   : Class of html
   .mtk9   : Like variable of function
+  .mtk10  : Like json =>
   .mtk11  : String
   .mtk13  : Like </ > tag of html
   .mtk13  : Like regex
@@ -23,12 +24,11 @@
   color: #00FF7F;
   color: #CF9FFF;
   color: #E0B0FF;
+  color: #D8BFD8;
   color: #1B1212;
   color: #FF5733;
-  color: #89CFF0;
-  color: #D8BFD8;
   color: #FA8072;
-  color: #1F51FF;
+  color: #1E90FF;
 }
 
 /* Common */
@@ -40,14 +40,14 @@
 .monaco-list-row:hover:not(.selected):not(.focused) {
   color: #FFFFF0;
   border-radius: 2px;
-  border: 1px solid #1F51FF;
+  border: 1px solid #1E90FF;
 }
 
 /* Input border */
 .monaco-inputbox {
   color: #FFFFF0;
   border-radius: 2px;
-  border-bottom: 1px solid #1F51FF;
+  border-bottom: 1px solid #1E90FF;
 }
 
 /* Normal mode */
@@ -60,7 +60,7 @@
 }
 
 .mtk6 {
-  color: #fff;
+  color: #FFF;
   text-shadow: 0 0 1px #1B1212,
                0 0 2px #FF5733,
                0 0 3px #FF0000;
@@ -71,7 +71,11 @@
 }
 
 .mtk9 {
-  color: #CF9FFF;
+  color: #E0B0FF;
+}
+
+.mtk10 {
+  color: #FFFFF0;
 }
 
 .mtk11 {
@@ -87,7 +91,7 @@
 }
 
 .mtk15 {
-  color: #fff;
+  color: #FFF;
   text-shadow: 0 0 1px #AF11FF,
                0 0 3px #AF11FF,
                0 0 5px #CE9DE8;
@@ -98,7 +102,7 @@
 }
 
 .mtk17 {
-  color: #E0B0FF;
+  color: #CF9FFF;
 }
 
 .mtk18 {
