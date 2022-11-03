@@ -17,18 +17,26 @@
   .mtk23  : Comments
 */
 
+/* Hints */
+/*
+  https://colorhunt.co/
+*/
+
 /* Colors used */
 .Colors-used {
-  color: #FFFFF0;
-  color: #50C878;
-  color: #00FF7F;
-  color: #CF9FFF;
-  color: #E0B0FF;
+  color: #F2F2F2;
+  color: #CE9DE8;
+  color: #aF11FF;
+  color: #1C1C1C;
   color: #D8BFD8;
-  color: #1B1212;
-  color: #FF5733;
-  color: #FA8072;
+  color: #50C878;
   color: #1E90FF;
+  color: #FA8072;
+  color: #AFB4FF;
+  color: #59CE8F;
+  color: #FBC5C5;
+  color: #C8B6E2;
+  color: #9C9EFE;
 }
 
 /* Common */
@@ -56,14 +64,11 @@
 }
 
 .mtk5 {
-  color: #50C878;
+  color: #59CE8F;
 }
 
 .mtk6 {
-  color: #FFF;
-  text-shadow: 0 0 1px #1B1212,
-               0 0 2px #FF5733,
-               0 0 3px #FF0000;
+  color: #FA8072;
 }
 
 .mtk8 {
@@ -71,7 +76,7 @@
 }
 
 .mtk9 {
-  color: #E0B0FF;
+  color: #AFB4FF;
 }
 
 .mtk10 {
@@ -87,14 +92,11 @@
 }
 
 .mtk14 {
-  color: #FA8072;
+  color: #FBC5C5;
 }
 
 .mtk15 {
-  color: #FFF;
-  text-shadow: 0 0 1px #AF11FF,
-               0 0 3px #AF11FF,
-               0 0 5px #CE9DE8;
+  color: #C8B6E2;
 }
 
 .mtk16 {
@@ -102,11 +104,15 @@
 }
 
 .mtk17 {
-  color: #CF9FFF;
+  color: #9C9EFE;
 }
 
 .mtk18 {
   color: #D8BFD8;
+}
+
+.mtk20 {
+  color: #59CE8F;
 }
 
 .mtk23 {
