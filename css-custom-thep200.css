@@ -14,7 +14,7 @@
   .mtk16  : Like Vanguard\Http\Resources\image.jpg
   .mtk17  : Like return
   .mtk18  : Like subscriptions context.subscriptions.push(disposable) js language
-  .mtk23  : Comments
+  .mtk20  : Comments
 */
 
 /* Hints */
@@ -26,14 +26,15 @@
 .Colors-used {
   color: #F2F2F2;
   color: #CE9DE8;
-  color: #aF11FF;
+  color: #AF11FF;
   color: #1C1C1C;
   color: #D8BFD8;
-  color: #50C878;
   color: #1E90FF;
   color: #FA8072;
   color: #AFB4FF;
   color: #59CE8F;
+  color: #50C878;
+  color: #00FF7F;
   color: #FBC5C5;
   color: #C8B6E2;
   color: #9C9EFE;
@@ -84,7 +85,7 @@
 }
 
 .mtk11 {
-  color: #FFF;
+  color: #FFFFF0;
 }
 
 .mtk13 {
@@ -112,52 +113,52 @@
 }
 
 .mtk20 {
-  color: #59CE8F;
+  font-style: italic;
 }
 
 .mtk23 {
-  font-style: italic;
+  color: #59CE8F;
 }
 
 /* Glow mode */
 /* .mtk1 {
   color: #fff;
-  text-shadow: 0 0 3px #1c1c1c,
-               0 0 5px #1c1c1c,
-               0 0 9px #f2f2f2;
+  text-shadow: 0 0 3px #1C1C1C,
+               0 0 5px #1C1C1C,
+               0 0 9px #F2F2F2;
 }
 
 .mtk5 {
   color: #fff;
-  text-shadow: 0 0 3px #1c1c1c,
-               0 0 5px #1c1c1c,
-               0 0 9px #f2f2f2;
+  text-shadow: 0 0 3px #1C1C1C,
+               0 0 5px #1C1C1C,
+               0 0 9px #F2F2F2;
 }
 
 .mtk6 {
   color: #fff;
-  text-shadow: 0 0 3px #1c1c1c,
-               0 0 5px #1c1c1c,
-               0 0 9px #f2f2f2;
+  text-shadow: 0 0 3px #1C1C1C,
+               0 0 5px #1C1C1C,
+               0 0 9px #F2F2F2;
 }
 
 .mtk11 {
   color: #fff;
-  text-shadow: 0 0 3px #1c1c1c,
-               0 0 5px #1c1c1c,
-               0 0 9px #f2f2f2;
+  text-shadow: 0 0 3px #1C1C1C,
+               0 0 5px #1C1C1C,
+               0 0 9px #F2F2F2;
 }
 
 .mtk15 {
   color: #fff;
-  text-shadow: 0 0 3px #af11ff,
-               0 0 7px #af11ff,
-               0 0 11px #ce9de8;
+  text-shadow: 0 0 3px #AF11FF,
+               0 0 7px #AF11FF,
+               0 0 11px #CE9DE8;
 }
 
 .mtk21 {
   color: #fff;
-  text-shadow: 0 0 3px #1c1c1c,
-               0 0 5px #1c1c1c,
-               0 0 9px #f2f2f2;
+  text-shadow: 0 0 3px #1C1C1C,
+               0 0 5px #1C1C1C,
+               0 0 9px #F2F2F2;
 } */
