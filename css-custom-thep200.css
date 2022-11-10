@@ -52,13 +52,6 @@
   border: 1px solid #1E90FF;
 }
 
-/* Input border */
-.monaco-inputbox {
-  color: #FFFFF0;
-  border-radius: 2px;
-  border-bottom: 1px solid #1E90FF;
-}
-
 /* Normal mode */
 .mtk1 {
   color: #FFFFF0;
@@ -119,46 +112,3 @@
 .mtk23 {
   color: #59CE8F;
 }
-
-/* Glow mode */
-/* .mtk1 {
-  color: #fff;
-  text-shadow: 0 0 3px #1C1C1C,
-               0 0 5px #1C1C1C,
-               0 0 9px #F2F2F2;
-}
-
-.mtk5 {
-  color: #fff;
-  text-shadow: 0 0 3px #1C1C1C,
-               0 0 5px #1C1C1C,
-               0 0 9px #F2F2F2;
-}
-
-.mtk6 {
-  color: #fff;
-  text-shadow: 0 0 3px #1C1C1C,
-               0 0 5px #1C1C1C,
-               0 0 9px #F2F2F2;
-}
-
-.mtk11 {
-  color: #fff;
-  text-shadow: 0 0 3px #1C1C1C,
-               0 0 5px #1C1C1C,
-               0 0 9px #F2F2F2;
-}
-
-.mtk15 {
-  color: #fff;
-  text-shadow: 0 0 3px #AF11FF,
-               0 0 7px #AF11FF,
-               0 0 11px #CE9DE8;
-}
-
-.mtk21 {
-  color: #fff;
-  text-shadow: 0 0 3px #1C1C1C,
-               0 0 5px #1C1C1C,
-               0 0 9px #F2F2F2;
-} */
