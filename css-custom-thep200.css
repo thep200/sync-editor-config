@@ -90,7 +90,10 @@
 }
 
 .mtk15 {
-  color: #C8B6E2;
+  color: #FFFFF0;
+  text-shadow: 0 0 1px #AF11FF,
+               0 0 2px #AF11FF,
+               0 0 3px #CE9DE8;
 }
 
 .mtk16 {
